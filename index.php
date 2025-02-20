@@ -77,8 +77,8 @@ unset ($_SESSION['error']);
 		 
 		 <form method = "POST" action="config/loginAuth.php">
   <div class="mb-3 mt-3">
-    <label for="email" class="form-label">Email:</label>
-    <input type="text" name="username" class="form-control" id="email" placeholder="Enter username" name="email" required>
+    <label for="email" class="form-label">Username:</label>
+    <input type="text" name="username" class="form-control" id="username" placeholder="Enter username" name="username" required>
   </div>
   <div class="mb-3">
     <label for="pwd" class="form-label">Password:</label>
